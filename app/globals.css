@@ -1,0 +1,179 @@
+/* ADD FONT URL */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* ADD BASIC CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #fafafa !important;
+  scroll-behavior: smooth !important;
+}
+
+.component {
+  padding: 0px 80px !important;
+  margin: 150px 0px 250px 0px !important;
+}
+
+.padding {
+  padding: 0px 80px !important;
+}
+
+.blog__my {
+  margin-top: 150px !important;
+}
+
+.blog__border {
+  border: 1px solid #e4e4e4 !important;
+}
+
+/* ADD COLOR PALETTES CSS */
+.bg__gray {
+  background-color: #f4f4f4 !important;
+}
+
+.blog__menu__btn {
+  background-color: #e6e6e6 !important;
+  width: 120px;
+}
+
+.blog__page {
+  background-color: #e6e6e6 !important;
+}
+
+.blue {
+  background-color: #174dff !important;
+}
+
+.shadow__blue {
+  background-color: #8ba6ff !important;
+}
+
+.red {
+  background-color: #f24445 !important;
+}
+
+.shadow__red {
+  background-color: #f2c1c1 !important;
+}
+
+.yellow {
+  background-color: #f7d400 !important;
+}
+
+.shadow__yellow {
+  background-color: #fff19e !important;
+}
+
+.green {
+  background-color: #3ad74c !important;
+}
+
+.shadow__green {
+  background-color: #9deca6 !important;
+}
+
+.input__bg {
+  background-color: #eeeeee !important;
+}
+
+.text__text1 {
+  color: #030305 !important;
+}
+
+.text__text2 {
+  color: #7a7a7a !important;
+}
+
+.text__text3 {
+  color: #c6c6c6 !important;
+}
+
+.text__text4 {
+  color: #fefefe !important;
+}
+
+.text__red {
+  color: #f24445 !important;
+}
+
+.hr {
+  color: #c8c8c8 !important;
+}
+
+/* ADD HOVER COLOR'S CSS */
+
+.green__hover:hover {
+  background-color: #030305 !important;
+}
+
+.blog__hover:hover h5,
+.blog__hover:hover span {
+  color: #174dff !important;
+}
+
+/* .red__card__hover:hover p > Image,
+.red__card__hover:hover p {
+  color: #f24445 !important;
+} */
+
+.red__hover:hover {
+  color: red !important;
+}
+
+.blue__hover:hover {
+  background-color: black !important;
+}
+
+.weight__500 {
+  font-weight: 500 !important;
+}
+
+/* ADD HOVER COLOR'S CSS */
+
+.form-control::placeholder {
+  color: #7a7a7a !important;
+  font-size: small;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #7a7a7a !important;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #7a7a7a !important;
+}
+
+.small_select {
+  font-size: small !important;
+}
+
+/* ADD MEDIA QUERY CSS */
+
+@media only screen and (max-width: 600px) {
+  .component {
+    padding: 0px 30px !important;
+    margin: 70px 0px 20px 0px !important;
+  }
+
+  .padding {
+    padding: 0px 30px !important;
+  }
+
+  .blog__my {
+    margin-top: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .screen__height {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+  }
+}
